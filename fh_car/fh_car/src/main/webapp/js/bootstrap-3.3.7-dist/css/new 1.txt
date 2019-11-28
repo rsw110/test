@@ -1,0 +1,11 @@
+$(document).on("click", "#test", function (e) {
+    one();
+    bootbox.dialog({
+        message: $("#asd").html(),
+        title: "sdf ",
+        callback: function () {
+            alert("asdasd")
+        }
+    })
+
+});
